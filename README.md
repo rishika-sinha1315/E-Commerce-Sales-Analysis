@@ -1,4 +1,4 @@
-E-Commerce Sales Analytics & Recommendation System
+🛒 E-Commerce Sales Analytics & Recommendation System
 ===================================================
 
 OVERVIEW
