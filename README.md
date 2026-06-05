@@ -17,7 +17,7 @@ Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, SQLite, Scikit-learn,
 PROJECT STRUCTURE
 -----------------
 Module 1 — Data Loading & Cleaning
-Module 2 — SQLite Integration
+Module 2 — Data Storage and Querying
 Module 3 — Exploratory Data Analysis
 Module 4 — Visualisations
 Module 5 — RFM Customer Segmentation
@@ -40,10 +40,12 @@ Module 1 — Data Loading & Cleaning
 - Extracted YearMonth and Hour from InvoiceDate
 - Final clean dataset: 396,046 rows, 9 columns
 
-Module 2 — SQLite Integration
-- Stored cleaned dataframe into SQLite database (RetailData.db)
-- Performed SQL queries for customer analysis, hourly patterns,
-  monthly revenue, and country-wise performance
+Module 2 — Data Storage & Querying
+
+Structured cleaned dataframe using Pandas for all querying and aggregation operations
+Performed customer analysis, hourly patterns, monthly revenue, and country-wise performance using .groupby() and .agg()
+Executed filtering, sorting, and ranking operations using .sort_values(), .filter(), and boolean indexing
+All data querying handled natively in Python without an external database layer
 
 Module 3 — Exploratory Data Analysis
 - Total Revenue: £8,745,847
