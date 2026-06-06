@@ -47,7 +47,7 @@ Performed customer analysis, hourly patterns, monthly revenue, and country-wise 
 Executed filtering, sorting, and ranking operations using .sort_values(), .filter(), and boolean indexing
 All data querying handled natively in Python without an external database layer
 
-Module 3 — Exploratory Data Analysis
+Module 3 — Feature Engineering & Preprocessing
 - Total Revenue: £8,745,847
 - Total Orders: 18,401
 - Total Customers: 4,334
