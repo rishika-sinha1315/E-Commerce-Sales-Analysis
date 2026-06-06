@@ -9,7 +9,7 @@ December 2010 and December 2011. After cleaning, 396,046 records were used
 for analysis across 9 columns.
 
 Dataset Source: UCI Machine Learning Repository — Online Retail Dataset
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, SQLite, Scikit-learn,
+Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn,
             Statsmodels, MLxtend, Jupyter Notebook
 
 ---
@@ -17,7 +17,7 @@ Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, SQLite, Scikit-learn,
 PROJECT STRUCTURE
 -----------------
 Module 1 — Data Loading & Cleaning
-Module 2 — Data Storage and Querying
+Module 2 — Feature Engineering & Preprocessing
 Module 3 — Exploratory Data Analysis
 Module 4 — Visualisations
 Module 5 — RFM Customer Segmentation
@@ -52,7 +52,7 @@ Module 3 — Exploratory Data Analysis
 - Total Orders: 18,401
 - Total Customers: 4,334
 - Total Products: 3,658
-- Date Range: April 2011 to September 2011
+- Date Range: December 2010 to December 2011 
 - UK contributes 83% of total revenue
 - Peak order hour: 12 PM
 - Highest revenue month: November 2011
